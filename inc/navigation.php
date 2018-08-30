@@ -71,6 +71,15 @@
                         </li>
                     </ul>
                 </li>
+                <li>
+                    <a href="javascript:;" data-toggle="collapse" data-target="#alert"><i class="fa fa-fw fa-envelope"></i> <b>Send Mail </b><i class="fa fa-fw fa-arrows-v"></i></a>
+                    <ul id="alert" class="collapse">
+                        <li>
+                            <a href="send_mail.php">Email Alert</a>
+                        </li>
+                        
+                    </ul>
+                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->

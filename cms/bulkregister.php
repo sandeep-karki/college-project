@@ -10,13 +10,13 @@ include 'regprocess.php';
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Upload student result</title>
+	<title>Register student in bulk</title>
 </head>
 <body>
 	<div class="container">
 		<form action="upload_process.php" method="post" enctype="multipart/form-data">
 			<fieldset>
-				<legend>Upload result</legend>
+				<legend>Upload to register student</legend>
 			<?php 
 			include '../inc/alert.php';
 			?>
