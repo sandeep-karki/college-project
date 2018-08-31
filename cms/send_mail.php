@@ -3,7 +3,7 @@
 include '../inc/session.php';
 include '../inc/template_header.php';
 include '../inc/navigation.php';
-include 'mailing_process.php';
+include 'email.php';
 
 ?>
 
@@ -46,7 +46,7 @@ include 'mailing_process.php';
 				<input type="number" name="batch" value="<?php echo($batch); ?>">
 			</div>
 			<div class="input-group">
-				<button type="submit" class="btn" name="batch">enter</button>
+				<button type="submit" class="btn" name="entbatch">enter</button>
 			</div>
 		</form>
 	</div>

@@ -14,7 +14,7 @@ include 'regprocess.php';
 </head>
 <body>
 	<div class="container">
-		<form action="upload_process.php" method="post" enctype="multipart/form-data">
+		<form action="upload_st_process.php" method="post" enctype="multipart/form-data">
 			<fieldset>
 				<legend>Upload to register student</legend>
 			<?php 
